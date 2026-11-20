@@ -25,7 +25,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Sync website files to htdocs
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        uses: SamKirkland/FTP-Deploy-Action@a51268f67f6605236975928ae28b0f7e9971d50a # v4.3.6
         with:
           server: ftpupload.net
           username: if0_43489551
